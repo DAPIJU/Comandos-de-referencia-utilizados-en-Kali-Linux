@@ -1,0 +1,17 @@
+Comandos de referencia utilizados en Kali Linux
+
+wifite: Es una herramienta para auditar redes inalámbricas encriptadas con WEB o WPA.
+ipconfig: Sirve para ver las direcciones IP y otra información relacionada con la red.
+nmap -p<número de puerto> <dirección ip>: Sirve para buscar un puerto abierto en específico.
+nmap -v -sn: Se utiliza para realizar un escaneo de ping o descubirimiento de host.
+nmap -v -A <dirección ip>: Sirve para buscar los puertos de la dirección IP.
+
+ftp <dirección ip>: Se utiliza para transferir archivos de una computadora a otra a través de una red que utiliza TCP/IP.
+	prompt: Se utiliza para activar o desactivar el modo de solicitud de una sesión FTP.
+	mget *.*: Se utiliza para copiar múltiples archivos desde un servidor FTP remoto a tu computadora local.
+	open: Se utiliza para conectarse a otro servidor FTP sin tener que salir y volver a iniciar sesión.
+	ls: Se utiliza para mostrar una lista abreviada de archivos y subdirectorios en el servidor FTP remoto.
+	put: Se utiliza para copiar un archivo local en el servidor FTP remoto.
+	get: Se utiliza para copiar un archivo en el servidor FTP a tu computadora local. 
+
+hexeditor: Es una herramienta que permite ver y editar el contenido de un archivo en formato hexadecimal.
